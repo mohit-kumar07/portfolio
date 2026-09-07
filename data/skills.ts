@@ -13,5 +13,5 @@ export const skills: Skills = {
   database: ["MySQL", "PostgreSQL", "MongoDB"],
   devops: ["Docker", "Kubernetes", "Jenkins", "Git/GitHub", "Maven", "Linux"],
   frontend: ["HTML", "CSS", "JavaScript"],
-  platform: ["AWS", "ServiceNow", "Supabase", "Vercel"],
+  platform: ["AWS", "ServiceNow", "Supabase", "Vercel","Wordpress"],
 };
