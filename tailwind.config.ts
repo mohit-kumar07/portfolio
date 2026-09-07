@@ -28,7 +28,7 @@ const config: Config = {
         mono: ["var(--font-jetbrains-mono)", "JetBrains Mono", "monospace"],
       },
       maxWidth: {
-        page: "960px",
+        page: "1680px",
       },
     },
   },

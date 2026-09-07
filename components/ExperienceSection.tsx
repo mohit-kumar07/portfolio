@@ -23,7 +23,7 @@ export default function ExperienceSection() {
               </div>
             </div>
 
-            <ul className="pl-6 md:pl-8 space-y-2 max-w-[75ch] text-text-primary text-base list-disc marker:text-text-secondary">
+            <ul className="pl-6 md:pl-8 space-y-2 max-w-5xl text-text-primary text-base list-disc marker:text-text-secondary">
               {entry.bullets.map((bullet, bIdx) => (
                 <li key={bIdx} className="leading-[1.7]">
                   {bullet}

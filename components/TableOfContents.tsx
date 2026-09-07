@@ -49,7 +49,7 @@ export default function TableOfContents({ sections = defaultSections }: { sectio
   return (
     <aside
       aria-label="Table of contents"
-      className="hidden lg:block w-48 shrink-0 sticky top-20 self-start text-xs font-mono select-none"
+      className="hidden lg:block w-56 shrink-0 sticky top-24 self-start text-xs font-mono select-none pl-4 border-l border-border/40"
     >
       <div className="text-text-secondary uppercase tracking-wider mb-3 pb-1 border-b border-border text-[11px] font-bold">
         SECTIONS
