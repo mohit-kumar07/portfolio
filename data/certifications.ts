@@ -6,8 +6,8 @@ export interface Certification {
 
 export const certifications: Certification[] = [
   {
-    name: "ServiceNow Certified Application Developer",
+    name: "Certified Application Developer",
     org: "ServiceNow",
-    year: "PLACEHOLDER",
+    year: "07 June 2025",
   },
 ];

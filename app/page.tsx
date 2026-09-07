@@ -83,7 +83,9 @@ export default function Home() {
             {/* EDUCATION */}
             <EducationSection />
 
-            {/* CERTIFICATIONS (conditionally rendered) */}
+            <hr className="border-border my-10" />
+
+            {/* CERTIFICATIONS */}
             <CertificationsSection />
 
             <hr className="border-border my-10" />

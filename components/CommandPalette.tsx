@@ -21,9 +21,11 @@ const defaultItems: PaletteItem[] = [
   { id: "proj-bhoomi", title: "BHOOMI_AND_BEYOND(1) — D2C E-Commerce Migration", category: "Project", url: "/projects/bhoomi-and-beyond" },
   { id: "sec-skills", title: "SKILLS — Stack & Tooling", category: "Section", url: "/#skills" },
   { id: "sec-education", title: "EDUCATION — JECRC University & RBSE", category: "Section", url: "/#education" },
+  { id: "sec-certifications", title: "CERTIFICATIONS — ServiceNow Certified Application Developer", category: "Section", url: "/#certifications" },
   { id: "sec-resume", title: "RESUME — Open resume.pdf", category: "File", url: "/resume.pdf", external: true },
-  { id: "sec-contact", title: "CONTACT — Email & GitHub", category: "Section", url: "/#contact" },
-  { id: "ext-github", title: "GITHUB(1) — cser-mohit-kumar", category: "External", url: "https://github.com/cser-mohit-kumar", external: true },
+  { id: "sec-contact", title: "CONTACT — Email & LinkedIn", category: "Section", url: "/#contact" },
+  { id: "ext-linkedin", title: "LINKEDIN(1) — mohit--k", category: "External", url: "https://www.linkedin.com/in/mohit--k/", external: true },
+  { id: "ext-github", title: "GITHUB(1) — mohit-kumar07", category: "External", url: "https://github.com/mohit-kumar07", external: true },
 ];
 
 export default function CommandPalette() {

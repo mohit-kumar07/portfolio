@@ -25,7 +25,7 @@ export const projects: Project[] = [
       "Persistent metric telemetry and operational logging backed by MariaDB",
       "Operational alerting and incident integration with ServiceNow",
     ],
-    source: "https://github.com/cser-mohit-kumar/PLACEHOLDER-repo-name",
+    source: "https://github.com/mohit-kumar07/cloudpulse",
     demo: null,
   },
   {

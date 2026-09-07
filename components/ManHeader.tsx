@@ -31,7 +31,8 @@ export default function ManHeader({
     { id: "projects", label: "PROJECTS" },
     { id: "skills", label: "SKILLS" },
     { id: "education", label: "EDUCATION" },
-    { id: "contact", label: "CONTACT" },
+    { id: "certifications", label: "CERTIFICATIONS" },
+    { id: "resume", label: "RESUME" },
     { id: "see-also", label: "SEE ALSO" },
   ];
 
@@ -48,9 +49,9 @@ export default function ManHeader({
             </a>
           </div>
 
-          {/* Center: Empty slot for upcoming additions */}
-          <div className="hidden md:block text-xs font-mono text-text-secondary">
-            {/* Center content to be added */}
+          {/* Center: Role / Specialization (Option B) */}
+          <div className="hidden md:block text-xs font-mono tracking-wider text-text-secondary">
+            SOFTWARE DEVELOPER &middot; BACKEND &amp; SYSTEMS
           </div>
 
           {/* Right: Controls */}

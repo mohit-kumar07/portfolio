@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { Project } from "@/data/projects";
+import { contact } from "@/data/contact";
 
 interface ProjectEntryProps {
   project: Project;
@@ -159,7 +160,7 @@ export default function ProjectEntry({ project }: ProjectEntryProps) {
           </Link>{" "}
           ·{" "}
           <a
-            href="https://github.com/cser-mohit-kumar"
+            href={contact.github}
             target="_blank"
             rel="noopener noreferrer"
             className="text-accent underline underline-offset-4 decoration-1 hover:text-text-primary transition-colors"

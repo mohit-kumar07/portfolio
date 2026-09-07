@@ -8,7 +8,7 @@ export interface ExperienceItem {
 
 export const experience: ExperienceItem[] = [
   {
-    period: "2025 — 2026",
+    period: "Jan 2026 — Jun 2026",
     role: "Technical Trainee",
     org: "Capgemini (Sogeti)",
     bullets: [

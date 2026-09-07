@@ -15,6 +15,7 @@ const defaultSections: TocItem[] = [
   { id: "projects", label: "PROJECTS" },
   { id: "skills", label: "SKILLS" },
   { id: "education", label: "EDUCATION" },
+  { id: "certifications", label: "CERTIFICATIONS" },
   { id: "resume", label: "RESUME" },
   { id: "contact", label: "CONTACT" },
   { id: "see-also", label: "SEE ALSO" },
