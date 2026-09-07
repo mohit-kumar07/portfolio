@@ -13,7 +13,7 @@ export const profile: Profile = {
   description: [
     "Software developer focused on backend development — Java, Spring Boot, and relational databases — with working knowledge of containerized deployment and Linux systems administration.",
     "Comfortable across the stack: builds REST APIs and backend services, and has shipped a production Next.js/Supabase migration for a live e-commerce platform.",
-    "Runs Arch Linux with a hand-configured Hyprland window manager day to day — genuinely uses the tools this site's design language borrows from, rather than referencing them for aesthetic effect.",
+    "Builds and deploys natively on Linux, with practical experience managing systemd services, shell scripting, container networking, and diagnosing host performance metrics from the command line.",
   ],
   location: "Alwar, Rajasthan, India",
 };
