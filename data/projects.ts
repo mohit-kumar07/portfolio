@@ -31,15 +31,15 @@ export const projects: Project[] = [
   {
     slug: "bhoomi-and-beyond",
     name: "Bhoomi & Beyond",
-    tagline: "D2C e-commerce platform — WordPress-to-Next.js migration",
+    tagline: "D2C e-commerce platform — WordPress development & Next.js migration",
     description:
-      "Contributed to the technical migration of a live D2C e-commerce platform (dehydrated fruits, snacks, and health powders) originally hosted on AWS with a WordPress/WooCommerce stack, migrating the architecture to a Next.js frontend deployed on Vercel with a Supabase backend.",
-    stack: ["Next.js", "Supabase (PostgreSQL, RLS, Auth, Storage, Edge Functions)", "Vercel", "Razorpay"],
+      "Developed and maintained a live D2C e-commerce platform (dehydrated fruits, snacks, and health powders) originally built on WordPress/WooCommerce on AWS EC2, and subsequently collaborated on migrating the architecture to a modern Next.js frontend deployed on Vercel with a Supabase backend.",
+    stack: ["Next.js", "Supabase (PostgreSQL, RLS, Auth, Storage, Edge Functions)", "WordPress", "AWS EC2", "Vercel", "Razorpay"],
     features: [
-      "Collaborated on migrating the legacy WordPress/WooCommerce on AWS EC2 stack to Next.js + Vercel",
+      "Developed and managed the initial WordPress/WooCommerce platform hosted on AWS EC2, including DNS (GoDaddy) and SSL (Certbot/Let's Encrypt)",
+      "Collaborated on re-architecting and migrating the store to a high-performance Next.js + Vercel frontend",
       "Designed PostgreSQL schema and row-level security policies on Supabase",
       "Integrated Razorpay payments and Titan Mail SMTP via Supabase Edge Functions",
-      "Handled DNS (GoDaddy) and SSL (Certbot/Let's Encrypt) on the legacy infrastructure prior to migration",
     ],
     source: null,
     demo: "https://bhoomiandbeyond.com",
