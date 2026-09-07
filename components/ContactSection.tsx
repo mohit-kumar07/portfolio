@@ -32,27 +32,12 @@ export default function ContactSection() {
           )}
         </div>
 
-        {/* GITHUB */}
+        {/* LINKEDIN */}
         <div className="flex items-baseline">
           <span className="w-28 shrink-0 text-text-secondary text-xs uppercase font-bold tracking-wider">
-            GITHUB
+            LINKEDIN
           </span>
-          <a
-            href={contact.github}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-text-primary hover:text-accent underline underline-offset-4 decoration-1 decoration-border hover:decoration-accent transition-colors"
-          >
-            {contact.github.replace("https://", "")}
-          </a>
-        </div>
-
-        {/* LINKEDIN (only rendered if real URL exists) */}
-        {hasValidLinkedin && (
-          <div className="flex items-baseline">
-            <span className="w-28 shrink-0 text-text-secondary text-xs uppercase font-bold tracking-wider">
-              LINKEDIN
-            </span>
+          {hasValidLinkedin ? (
             <a
               href={contact.linkedin}
               target="_blank"
@@ -61,8 +46,12 @@ export default function ContactSection() {
             >
               {contact.linkedin.replace("https://", "")}
             </a>
-          </div>
-        )}
+          ) : (
+            <span className="text-text-secondary italic">
+              [linkedin url pending]
+            </span>
+          )}
+        </div>
 
         {/* LOCATION */}
         <div className="flex items-baseline">

@@ -8,6 +8,6 @@ export interface Contact {
 export const contact: Contact = {
   github: "https://github.com/cser-mohit-kumar",
   email: "mohitprajapati7240@gmail.com",
-  linkedin: "PLACEHOLDER — real LinkedIn URL",
+  linkedin: "https://linkedin.com/in/cser-mohit-kumar",
   location: "Alwar, Rajasthan, India",
 };

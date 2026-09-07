@@ -48,16 +48,12 @@ export default function ManHeader({
             </a>
           </div>
 
-          {/* Center: Category / Command section */}
-          <div
-            className={`hidden md:block text-xs uppercase tracking-widest text-text-secondary transition-opacity ${
-              isScrolled ? "opacity-0 pointer-events-none" : "opacity-100"
-            }`}
-          >
-            {manualSection}
+          {/* Center: Empty slot for upcoming additions */}
+          <div className="hidden md:block text-xs font-mono text-text-secondary">
+            {/* Center content to be added */}
           </div>
 
-          {/* Right: Controls & Header Title */}
+          {/* Right: Controls */}
           <div className="flex items-center gap-4">
             <ThemeToggle />
 
@@ -71,10 +67,6 @@ export default function ManHeader({
             >
               {mobileMenuOpen ? "[ close ]" : "[ menu ]"}
             </button>
-
-            <span className="hidden sm:inline font-semibold text-text-primary">
-              {manualTitle}
-            </span>
           </div>
         </div>
 
