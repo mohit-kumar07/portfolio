@@ -5,9 +5,9 @@ export default function SkillsSection() {
     { title: "LANGUAGES", items: skills.languages },
     { title: "BACKEND", items: skills.backend },
     { title: "DATABASES", items: skills.database },
-    { title: "DEVOPS & SYSTEMS", items: skills.devops },
     { title: "FRONTEND", items: skills.frontend },
     { title: "PLATFORMS & CLOUD", items: skills.platform },
+    { title: "DEVOPS & SYSTEMS", items: skills.devops },
   ];
 
   return (
@@ -25,19 +25,19 @@ export default function SkillsSection() {
         {categories.map((cat) => (
           <div
             key={cat.title}
-            className="border border-border bg-bg-raised/20 transition-colors hover:border-text-secondary/60 flex flex-col"
+            className="border border-border bg-bg-raised/20 transition-colors hover:border-text-secondary/60 flex flex-col h-full"
           >
-            {/* Box Header (Elias signature) */}
+            {/* Box Header */}
             <div className="border-b border-border px-3.5 py-2 font-bold text-xs text-text-secondary uppercase tracking-wider bg-bg-raised/40">
               {cat.title}
             </div>
 
-            {/* Box Tags List */}
-            <ul className="p-3.5 flex flex-wrap gap-2 text-xs font-mono text-text-primary flex-1">
+            {/* Box Tags List - content-start prevents vertical stretching */}
+            <ul className="p-3.5 flex flex-wrap gap-2 text-xs font-mono text-text-primary content-start flex-1">
               {cat.items.map((skill) => (
                 <li
                   key={skill}
-                  className="px-2 py-0.5 border border-border/80 bg-bg/50 hover:border-accent hover:text-accent transition-colors select-none"
+                  className="px-2.5 py-1 border border-border/80 bg-bg/50 hover:border-accent hover:text-accent transition-colors select-none"
                 >
                   {skill}
                 </li>
